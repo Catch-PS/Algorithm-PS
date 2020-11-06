@@ -52,7 +52,7 @@ PS 문제 풀이 개수 or 출석 벌금 규정(미정)
 ### 요약
 1. main, develop 브랜치로 나누어서 브랜치 진행
 2. 알고리즘 풀이 후, develop 브랜치로 commit 및 push 진행 
-2. push 이후 PR 요청 후 오른쪽 Reviewers 팀원 지정후 Requeset 요청
+2. push 이후 PR 요청 후 오른쪽 Reviewers 팀원 지정후 Request 요청
 3. 스터디원 모두 코드 리뷰 완료되면 main 브랜치로 Merge
 
 ### PR Flow 

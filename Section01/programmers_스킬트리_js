@@ -1,0 +1,55 @@
+package com.company.study.section.section1;
+import java.nio.channels.SelectionKey;
+import java.util.*;
+
+// java
+public class SkillTree {
+
+    public static void main(String[] args) {
+        String skill = "CBD";
+        String[] skill_trees = {"BACDE", "CBADF", "AECB", "BDA"};
+        solution(skill, skill_trees);
+    }
+
+    public static int solution(String skill, String[] skill_trees) {
+        Map<Character, Integer> map = new HashMap<>();
+        char[] skillArray = skill.toCharArray();
+        for (int i=0; i<skillArray.length; i++) map.put(skillArray[i], skillArray.length-i);
+
+        int count = 0;
+        for (String s : skill_trees) {
+            int before = 0;
+            char[] charArray = s.toCharArray();
+            for (int i=0; i<charArray.length; i++) {
+                if (map.containsKey(charArray[i])) {
+                    if (before == 0) {
+                        if (charArray[i] != skillArray[0]) break;
+                        before = map.get(charArray[i]);
+                    } else {
+                        int sum = before - map.get(charArray[i]);
+                        before = map.get(charArray[i]);
+                        if (sum != 1) break;
+                    }
+                }
+                if (i == charArray.length-1) count++;
+            }
+        }
+
+        return count;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

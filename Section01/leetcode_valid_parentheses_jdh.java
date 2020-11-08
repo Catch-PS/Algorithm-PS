@@ -1,16 +1,24 @@
+/*
+    풀이 시간: 3분
+*/
 class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        int[] result = new int[2];
-        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+    public boolean isValid(String s) {
+        Stack<Character> st = new Stack<Character>();
         
-        for (int i = 0; i < nums.length; i++) {
-            if (map.containsKey(target - nums[i])) {
-                result[0] = map.get(target - nums[i]);
-                result[1] = i;
-                return result;
-            }
-            map.put(nums[i], i);
+        for(int i = 0; i < s.length(); i++){
+            Character ch = s.charAt(i);
+            if(!st.empty()){
+                Character open = st.peek();
+                
+                if(open == '(' && ch == ')' || open == '{' && ch == '}' || open == '[' && ch == ']') {
+                    st.pop();
+                } else {
+                    st.push(ch);
+                }
+            } else st.push(ch);
         }
-        return result;
+        
+        if(st.size() == 0) return true;
+        else return false;
     }
 }

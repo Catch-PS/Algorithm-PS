@@ -52,7 +52,6 @@ public class Mootube {
 
         public int dfs(int k, int s) {
             int result = 0;
-            List<Integer> bfsList = new LinkedList<>();
             Stack<Integer> stack = new Stack<>();
             boolean[] visited = new boolean[node+1];
 
@@ -60,7 +59,6 @@ public class Mootube {
             stack.add(s);
             while (!stack.isEmpty()) {
                 int pop = stack.pop();
-                bfsList.add(pop);
 
                 Iterator<Edge> iterator =  adjacencylist[pop].listIterator();
                 while (iterator.hasNext()) {

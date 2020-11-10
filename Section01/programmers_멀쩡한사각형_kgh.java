@@ -15,8 +15,8 @@ public class programmers_멀쩡한사각형_kgh {
     }
     static long solution(int w, int h) {
         int gcd_num = gcd(w,h);
-        long squreArea = (long)w * (long)h;
-        long answer = (squreArea - ((long)w + (long )h)) + gcd_num;
+        long squareArea = (long)w * (long)h;
+        long answer = (squareArea - ((long)w + (long )h)) + gcd_num;
 
         return answer;
     }

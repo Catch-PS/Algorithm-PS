@@ -30,5 +30,13 @@ Maximum Subarray
 
 [https://leetcode.com/problems/maximum-subarray/](https://leetcode.com/problems/maximum-subarray/)
 
-### CS 주차별
+### 운영체제
 
+1. 프로세스, 스레드 정의 및 특징(메모리 구조 위주로)
+2. 멀티 프로세스 VS 멀티 스레드
+3. Context Switching이란?
+4. PCB(Process Control Block) 특징
+
+### 손코딩 문제
+
+1. 피보나치수열 DP, Recursive 

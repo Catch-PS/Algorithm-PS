@@ -3,6 +3,26 @@ package Study.Section02;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.PriorityQueue;
+/*
+#1 풀이 시간
+인접리스트로 접근하였는데 응용된 힙 + 다익스트라 문제, 시간 초과
+
+#2 접근방식
+- 인접리스트로 접근하여서 풀었지만, 21.9% 터져서 다른방식 고민
+- 우선순위큐를 사용하여 가중치값이 작은순서대로 처리(Comparable implements를 통해 compareTo함수 override) 오름차순 정렬
+- check변수를 사용하여 가장 작은 가중치값을 찾아야하므로 비교를 위해 모든값을 Integer.MAX_VALUE 최대값으로 초기화하였습니다.
+- 현재 노드의 거리, 현재까지의 거리를 더한값을 현재 각 노드의 거리 저장값과 비교하여 더 작을 경우 값을 갱신시켜줍니다.
+- 체크된 거리값들이 <= K 의 범위를 만족하는 값들만 answer를 카운팅 시켜주었습니다.
+
+#3 시간복잡도
+그래프에서 V: 정점, E:간선 으로 표현되기때문에 G=(V,E)식으로 나타낼 수 있습니다.
+모든 정점을 방문 O(V), 우선순위큐 트리형식으로 값을 삽입/삭제 O(logE)의 시간복잡도를 갖고 있기때문에
+결과적으로 O(V * log E)의 시간복잡도를 갖는다고 생각하였습니다.
+
++ 추가
+인접리스트 시간복잡도: O(V+E)
+인접행렬 시간복잡도: O(V^2)
+ */
 
 public class programmers_배달_kgh {
     static PriorityQueue<Pair> pq;

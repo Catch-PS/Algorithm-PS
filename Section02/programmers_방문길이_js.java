@@ -8,7 +8,7 @@ import java.util.*;
 
     시간 복잡도: O(N)
  */
-public class programmers_방문길이_kgh {
+public class programmers_방문길이_js {
     public static void main(String[] args) {
         System.out.println((solution("UDU")));
     }

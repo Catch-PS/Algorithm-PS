@@ -29,7 +29,7 @@ class ListNode{
         this.next = next;
     }
 }
-public class Merge_Two_Sorted_Lists_kgh {
+public class leetcode_Merge_Two_Sorted_Lists_kgh {
     public static void main(String[] args) {
             ListNode l1 = new ListNode(0);
             ListNode l2 = new ListNode(0);

@@ -32,16 +32,22 @@ Maximum Subarray
 
 ### 2주차 추가문제 
 
+필수 3문제 + 선택 1문제
+
 3. Longest Substring Without Repeating Characters
+
 [https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 21. Merge Two Sorted Lists
+
 [https://leetcode.com/problems/merge-two-sorted-lists/](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 22. Generate Parentheses
+
 [https://leetcode.com/problems/generate-parentheses/](https://leetcode.com/problems/generate-parentheses/)
 
 5. Longest Palindromic Substring
+
 [https://leetcode.com/problems/longest-palindromic-substring/](https://leetcode.com/problems/longest-palindromic-substring/)
 
 ### 운영체제

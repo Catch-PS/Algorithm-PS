@@ -57,6 +57,4 @@ Maximum Subarray
 3. Context Switching이란?
 4. PCB(Process Control Block) 특징
 
-### 손코딩 문제
-
 1. 피보나치수열 DP, Recursive 

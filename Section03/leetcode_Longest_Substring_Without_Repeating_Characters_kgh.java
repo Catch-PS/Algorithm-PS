@@ -1,4 +1,4 @@
-package Study.Section02;
+package Study.Section03;
 
 /* 연속되는 문자열 찾기
 1. 풀이 시간 체크: 50분

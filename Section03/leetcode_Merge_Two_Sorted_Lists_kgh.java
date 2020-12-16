@@ -1,4 +1,4 @@
-package Study.Section02;
+package 스터디_SNU.Section03;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;

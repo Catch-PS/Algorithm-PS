@@ -1,4 +1,4 @@
-package Study.Section03;
+package 스터디_SNU.Section03;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import java.util.Stack;
 3. 자신이 생각하는 시간복잡도
 validString함수 - O(N), 재귀함수 O(N*2 + N*2) 두번호출하므로 (, ) => 즉, 시간복잡도 O(N)?
 */
-import java.io.IOException;
+
 public class leetcode_Generate_Parentheses_recursive_kgh {
     static List<String> answer = new ArrayList<>();
     public static void main(String[] args) {

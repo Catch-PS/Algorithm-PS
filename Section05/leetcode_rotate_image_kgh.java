@@ -53,31 +53,3 @@ public class leetcode_rotate_image_kgh {
         */
     }
 }
-
-class Solution {
-    static int[][] rotate_answer;
-    static List<List<Integer>> arr = new ArrayList<>();
-    static List<List<Integer>> rotate(int[][] matrix) {
-        rotate_answer = new int[matrix.length][matrix.length];
-        for(int i=0; i<matrix.length; i++){
-            arr.add(new ArrayList<>());
-        }
-        for(int i=0; i<matrix.length; i++){
-            for(int j=0; j<matrix[i].length; j++){
-                rotate_answer[j][(matrix.length-1)-i] = matrix[i][j];
-            }
-        }
-        for(int i=0; i<rotate_answer.length; i++){
-            for(int j=0; j<rotate_answer[i].length; j++){
-                arr.get(i).add(rotate_answer[i][j]);
-            }
-        }
-         for(int i=0; i<arr.size(); i++){
-             for(int j=0; j<arr.get(i).size(); j++){
-                 System.out.print(arr.get(i).get(j));
-             }
-             System.out.println();
-         }
-        return arr;
-    }
-}

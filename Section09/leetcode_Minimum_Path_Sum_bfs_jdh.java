@@ -5,7 +5,7 @@
             pq에서 cost가 짧은 정부터 꺼내서 조건에 의해 갈 수 있는 정점들을 넣으면서 진행합니다.
  */
 
-public class LEET_64_Minimum_Path_Sum_bfs_jdh {
+public class leetcode_Minimum_Path_Sum_bfs_jdh {
     public static int m, n, answer;
     public static int dx[] = {1, 0};
     public static int dy[] = {0, 1};

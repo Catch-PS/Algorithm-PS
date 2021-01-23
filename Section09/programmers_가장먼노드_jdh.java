@@ -6,17 +6,12 @@
  */
 public class programmers_가장먼노드_jdh {
 
-    public static class Vertex implements Comparable<Vertex>{
+    public static class Vertex {
         int n, weight;
 
         public Vertex(int n, int weight){
             this.n = n;
             this.weight = weight;
-        }
-
-        @Override
-        public int compareTo(Vertex o) {
-            return Integer.compare(this.weight, o.weight);
         }
     }
 
@@ -26,7 +21,7 @@ public class programmers_가장먼노드_jdh {
         boolean visited[] = new boolean[n];
 
         LinkedList<Vertex> list[] = new LinkedList[n];
-        PriorityQueue<Vertex> pq = new PriorityQueue<>();
+        Queue<Vertex> pq = new LinkedList<>();
 
         for(int i = 0; i < n; i++) list[i] = new LinkedList<Vertex>();
 
@@ -61,6 +56,7 @@ public class programmers_가장먼노드_jdh {
         }
 
         return answer;
+        }
     }
 
     public static void main(String args[]){

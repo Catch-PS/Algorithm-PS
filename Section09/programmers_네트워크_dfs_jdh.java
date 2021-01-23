@@ -4,7 +4,7 @@
     풀이 방법: 네트워크 하나하나를 정점으로 보고 DFS를 수행합니다. 하나의 정점에 이어진 정점이 있다면 계속해서 재귀적으로 이어진 다른 정점을 찾으며 탐색합니다.
             따라서 solution 함수에서 방문하지 않은 정점인 경우만 DFS를 수행하기 때문에 DFS 수행 횟수가 곧 네트워크의 수가 됩니다.
  */
-public class programmers_네트워크_jdh {
+public class programmers_네트워크_dfs_jdh {
     public static int N;
     public static boolean visited[];
 

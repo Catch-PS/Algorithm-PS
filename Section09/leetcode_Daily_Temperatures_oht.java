@@ -20,7 +20,7 @@ import java.util.Stack;
  *
  * 이러한 과정을 반복하면 최종적으로 answer[] 배열에 원하는 값이 담기게 됩니다.
  *
- * 시간 복잡도 : 
+ * 시간 복잡도 :
  */
 public class leetcode_Daily_Temperatures_oht {
 

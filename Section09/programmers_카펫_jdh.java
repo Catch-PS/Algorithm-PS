@@ -14,9 +14,9 @@ public class programmers_카펫_jdh {
         // brown의 세로의 최대 길잉는 brown을 2로 나눴을 때로 가정, 세로의 길이가 가로의 길이보다 클 수 없으므로)
         for(int i = 3; i <= brown / 2; i++){
             int ver = (brown - (i * 2)) / 2; // 양 끝의 세로 블록 수를 빼고 남은 brown의 수의 / 2는 한 줄의 세로 블록 수
-            int area = (i - 2) * ver; // 안의 yellow 공간은 세로 길이를 나타내는 i에서 2줄을 뺀 후 위에서 구한 세로 블록 수의
+            int area = (i - 2) * ver; // 안의 yellow 공간은 세로 길이를 나타내는 i에서 2줄을 뺀 후 위에서 구한 세로 블록 수의 곱
 
-            if(area == yellow) {곱
+            if(area == yellow) {
                 answer[0] = ver + 2;
                 answer[1] = i;
                 break;

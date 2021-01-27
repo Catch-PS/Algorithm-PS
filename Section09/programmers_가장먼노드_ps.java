@@ -2,8 +2,7 @@ package Section09;
 import java.util.*;
 /*
  * 풀이 시간: 초과 
- * 시간 복잡도 : O(N)
- * 공간 복잡도 : O(1) 
+ * 시간 복잡도 : O(N+E)
  * 풀이 방법 : 
  *   BFS - 인접행렬 + Queue 
  *     1 2 3 4 5 6 

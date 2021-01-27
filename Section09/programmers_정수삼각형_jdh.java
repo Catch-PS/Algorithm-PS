@@ -21,7 +21,7 @@ public class programmers_정수삼각형_jdh {
                 else dp[l] = Math.max(dp[l - i - 1], dp[l - i]) + triangle[i][j];
 
                 if(answer < dp[l]) answer = dp[l];
-;            }
+             }
         }
         return answer;
     }

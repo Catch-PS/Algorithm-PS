@@ -21,7 +21,7 @@ public class programmers_소수찾기_kgh {
     }
     static int solution(String numbers) {
         isCheck = new boolean[numbers.length()];
-        isStrCheck = new boolean[1000000000];
+        isStrCheck = new boolean[10000000];
         dfs(numbers, "");
         return answer;
     }

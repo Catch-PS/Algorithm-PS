@@ -11,7 +11,7 @@ package Section10;
    3  0 1(0+1) 1(1+0) 2(1+1) 4(2+2)  = 4
  */
 
-public class programmers_등교길_ps {
+public class programmers_등굣길_ps {
     public static void main(String args[]){
         int[][] puddles = {{2, 2}};
         System.out.println(solution(4,3,puddles));

@@ -13,9 +13,9 @@ import java.util.PriorityQueue;
  * 3. 현재 작업이 종료된 상태에서 jpq가 비었다면 현재 작업의 InputTime 을 endTime 으로 조정합니다.
  * 4. 대기열에 값이 한다면 제일 우선하는 작업을 수행하도록 합니다.
  * (우선 순위는 runTime 이 작은 순서로 Comparator 를 조정했습니다.)
- *
+ * 
  * 5. 평균값을 도출합니다.
- *
+ * 
  * 시간 복잡도 : 
  */
 public class programmers_디스크_컨트롤러_oht {

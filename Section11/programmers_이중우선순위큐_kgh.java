@@ -75,7 +75,7 @@ public class programmers_이중우선순위큐_kgh {
 
         @Override
         public int compareTo(calMax o) {
-            if(this.value <= o.value){
+            if(this.value < o.value){
                 return 1;
             }else {
                 return -1;

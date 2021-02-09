@@ -3,6 +3,7 @@ package 스터디.스터디_SNU.Section11;
 import java.util.PriorityQueue;
 
 /**
+ * 큐가 비어있으면 [0,0] 비어있지 않으면 [최댓값, 최솟값]을 return 하도록 solution 함수를 구현
  * 1. 문제풀이시간: 40분
  * 2. 컴퓨팅사고
  * (1)최댓값, 최솟값을 구해야하는 문제이므로 최대힙, 최소힙을 두개선언 하여 max,min값을 구해주었습니다.
@@ -21,19 +22,17 @@ public class programmers_이중우선순위큐_kgh {
     public static void main(String[] args) {
         solution(new String[]{"I 7","I 5","I -5","D -1"});
         solution(new String[]{"I 16","D 1"});
-
         solution(new String[]{"I 16", "I -5643", "D -1", "D 1", "D 1", "I 123", "D -1"});
-
     }
     static int[] solution(String[] operations) {
-        PriorityQueue<calMax> maxHeap = new PriorityQueue();
-        PriorityQueue<calMin> minHeap = new PriorityQueue();
+        PriorityQueue<MaxHeap> maxHeap = new PriorityQueue();
+        PriorityQueue<MinHeap> minHeap = new PriorityQueue();
         int[] answer = {0,0};
         for(int i=0; i<operations.length; i++){
             String[] s = operations[i].split(" ");
             if(s[0].equals("I")){
-                maxHeap.add(new calMax(Integer.parseInt(s[1])));
-                minHeap.add(new calMin(Integer.parseInt(s[1])));
+                maxHeap.add(new MaxHeap(Integer.parseInt(s[1])));
+                minHeap.add(new MinHeap(Integer.parseInt(s[1])));
             }else if(s[0].equals("D")){
                 if(s[1].equals("1") && !maxHeap.isEmpty()){
                     maxHeap.poll();
@@ -62,19 +61,18 @@ public class programmers_이중우선순위큐_kgh {
         {
             pqTmp.add(pq.poll());
         }
-
         pq.clear();
         return pqTmp;
     }
 
-    private static class calMax implements Comparable<calMax>{
+    private static class MaxHeap implements Comparable<MaxHeap>{
         int value;
-        public calMax(int value) {
+        public MaxHeap(int value) {
             this.value = value;
         }
 
         @Override
-        public int compareTo(calMax o) {
+        public int compareTo(MaxHeap o) {
             if(this.value < o.value){
                 return 1;
             }else {
@@ -83,14 +81,14 @@ public class programmers_이중우선순위큐_kgh {
         }
     }
 
-    private static class calMin implements Comparable<calMin>{
+    private static class MinHeap implements Comparable<MinHeap>{
         int value;
-        public calMin(int value) {
+        public MinHeap(int value) {
             this.value = value;
         }
 
         @Override
-        public int compareTo(calMin o) {
+        public int compareTo(MinHeap o) {
             if(this.value < o.value){
                 return -1;
             }else {

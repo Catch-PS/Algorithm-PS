@@ -56,7 +56,7 @@ public class programmers_추석트래픽_kgh {
         // 끝지점 기준으로 탐색
         for(int i=0; i<lines.length; i++) {
             int cnt = 0;
-            // 시작시점에서 초단위로 확인을 해야하기 때문에 해당사항처럼 짛냉
+            // 시작시점에서 초단위로 확인
             int startTime = endTimes[i];
             int endTime = startTime + 1000;
             for (int j = 0; j < lines.length; j++) {

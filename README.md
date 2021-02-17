@@ -1,5 +1,326 @@
 # 서울대입구역 알고리즘 스터디 
 
+## 🔥알고리즘 주차별 문제🔥
+### 1주차
+
+> MooTube (Silver)
+
+[https://www.acmicpc.net/problem/15591](https://www.acmicpc.net/problem/15591)
+
+> 멀쩡한사각형
+
+[https://programmers.co.kr/learn/courses/30/lessons/62048](https://programmers.co.kr/learn/courses/30/lessons/62048)
+
+> 스킬트리
+
+[https://programmers.co.kr/learn/courses/30/lessons/49993](https://programmers.co.kr/learn/courses/30/lessons/49993)
+
+> two-sum
+
+[https://leetcode.com/problems/two-sum/](https://leetcode.com/problems/two-sum/)
+
+>Valid Parentheses
+
+[https://leetcode.com/problems/valid-parentheses/](https://leetcode.com/problems/valid-parentheses/)
+
+### 2주차
+
+> 새로운 게임 
+
+[https://www.acmicpc.net/problem/17780](https://www.acmicpc.net/problem/17780)
+
+> 배달
+
+[https://programmers.co.kr/learn/courses/30/lessons/12978](https://programmers.co.kr/learn/courses/30/lessons/12978)
+
+> 방문길이
+
+[https://programmers.co.kr/learn/courses/30/lessons/49993](https://programmers.co.kr/learn/courses/30/lessons/49994)
+
+> add-two-numbers
+
+[https://leetcode.com/problems/add-two-numbers/](https://leetcode.com/problems/add-two-numbers/)
+
+> Maximum Subarray
+
+[https://leetcode.com/problems/maximum-subarray/](https://leetcode.com/problems/maximum-subarray/)
+
+> Longest Substring Without Repeating Characters
+
+[https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+
+> Merge Two Sorted Lists
+
+[https://leetcode.com/problems/merge-two-sorted-lists/](https://leetcode.com/problems/merge-two-sorted-lists/)
+
+> Generate Parentheses
+
+[https://leetcode.com/problems/generate-parentheses/](https://leetcode.com/problems/generate-parentheses/)
+
+> Longest Palindromic Substring
+
+[https://leetcode.com/problems/longest-palindromic-substring/](https://leetcode.com/problems/longest-palindromic-substring/)
+
+### 3주차
+
+> Longest Substring Without Repeating Characters
+
+[https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+
+> Merge Two Sorted Lists
+
+[https://leetcode.com/problems/merge-two-sorted-lists/](https://leetcode.com/problems/merge-two-sorted-lists/)
+
+> Generate Parentheses
+
+[https://leetcode.com/problems/generate-parentheses/](https://leetcode.com/problems/generate-parentheses/)
+
+> Longest Palindromic Substring
+
+[https://leetcode.com/problems/longest-palindromic-substring/](https://leetcode.com/problems/longest-palindromic-substring/)
+
+
+> 윈터코딩 기지국 설치
+
+[https://programmers.co.kr/learn/courses/30/lessons/12979](https://programmers.co.kr/learn/courses/30/lessons/12979)
+
+> 2018년 카카오 셔틀버스 1차
+
+[https://programmers.co.kr/learn/courses/30/lessons/17678](https://programmers.co.kr/learn/courses/30/lessons/17678)
+
+> 2018년 월드코드 챌린지 시즌1
+
+[https://programmers.co.kr/learn/courses/30/lessons/68646](https://programmers.co.kr/learn/courses/30/lessons/68646)
+
+### 4주차
+
+> lru-cache
+
+[https://leetcode.com/problems/lru-cache/](https://leetcode.com/problems/lru-cache/)
+
+> Palindromic Substrings
+
+[https://leetcode.com/problems/palindromic-substrings/](https://leetcode.com/problems/palindromic-substrings/)
+
+> unique-binary-search-trees
+
+[https://leetcode.com/problems/unique-binary-search-trees](https://leetcode.com/problems/unique-binary-search-trees)
+
+> 방문길이
+
+[https://programmers.co.kr/learn/courses/30/lessons/49994](https://programmers.co.kr/learn/courses/30/lessons/49994)
+
+> 수식최대화
+
+[https://programmers.co.kr/learn/courses/30/lessons/67257](https://programmers.co.kr/learn/courses/30/lessons/67257)
+
+### 5주차
+
+> leetcode Permutations
+
+[leetcode Permutations](https://leetcode.com/problems/permutations)
+
+> leetcode Unique Paths
+
+[leetcode Unique Paths](https://leetcode.com/problems/unique-paths/)
+
+> leetcode Rotate Image
+
+[leetcode Rotate Image](https://leetcode.com/problems/rotate-image/)
+
+> 삼각달팽이
+
+배열 회전 관련한 유사문제
+[프로그래머스 삼각달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645)
+
+> 징검다리 건너기
+
+[프로그래머스 징검다리 건너기](https://programmers.co.kr/learn/courses/30/lessons/64062)
+
+> 영어 끝말잇기
+
+[프로그래머스 영어 끝말잇기](https://programmers.co.kr/learn/courses/30/lessons/12981)
+
+### 6주차
+
+> leetcode Jump Game
+
+[leetcode Jump Game](https://leetcode.com/problems/jump-game/)
+
+> leetcode Container With Most Water
+
+[leetcode Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+
+> leetcode House Robber
+
+[leetcode House Robber](https://leetcode.com/problems/house-robber/)
+
+> 불량 사용자
+
+[프로그래머스 불량 사용자](https://programmers.co.kr/learn/courses/30/lessons/64064)
+
+> 보석쇼핑
+
+[프로그래머스 보석쇼핑](https://programmers.co.kr/learn/courses/30/lessons/67258)
+
+### 7주차
+
+> leetcode maximal-square
+
+[leetcode maximal-square](https://leetcode.com/problems/maximal-square/)
+
+> leetcode decode-string
+
+[leetcode decode-string](https://leetcode.com/problems/decode-string/)
+
+> leetcode letter-combinations-of-a-phone-number
+
+[letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+
+> 가사 검색
+
+[프로그래머스 가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)
+
+> 블록 이동하기
+
+[프로그래머스 블록 이동하기](https://programmers.co.kr/learn/courses/30/lessons/60063)
+
+### 8주차
+
+> partition-labels
+
+[partition-labels](https://leetcode.com/problems/partition-labels/)
+
+> trapping-rain-water
+
+[trapping-rain-water](https://leetcode.com/problems/trapping-rain-water/)
+
+> implement-trie-prefix-tree
+
+[implement-trie-prefix-tree](https://leetcode.com/problems/implement-trie-prefix-tree/)
+
+> 가장 긴 팰린드롬
+
+[프로그래머스 가장 긴 팰린드롬
+](https://programmers.co.kr/learn/courses/30/lessons/12904)
+
+> 블록 이동하기
+
+[프로그래머스 블록 이동하기](https://programmers.co.kr/learn/courses/30/lessons/60063)
+
+### 9주차
+
+> Daily Temperatures
+
+[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+
+> Minimum Path Sum
+
+[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
+
+> 네트워크
+
+[네트워크
+](https://programmers.co.kr/learn/courses/30/lessons/43162 )
+
+> 카펫
+
+[카펫](https://programmers.co.kr/learn/courses/30/lessons/42842)
+
+> 정수삼각형
+
+[정수삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)
+
+> 가장 먼 노드
+
+[가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)
+
+### 10주차
+
+> 순위
+
+[순위](https://programmers.co.kr/learn/courses/30/lessons/49191 )
+
+> 등굣길
+
+[등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898)
+
+> 단어변환
+
+[단어변환](https://programmers.co.kr/learn/courses/30/lessons/43163)
+
+> 소수찾기
+
+[소수찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
+
+> 조이스틱
+
+[조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)
+
+> 디스크컨트롤러
+
+[디스크컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)
+
+> 전화번호목록
+
+[전화번호목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
+
+### 11주차
+
+> 여행경로 
+
+[여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164)
+
+> 이중 우선순위큐
+
+[이중 우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628)
+
+> N으로 표현
+
+[N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895)
+
+> 입국심사
+
+[입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)
+
+> 합승 택시 요금
+[합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413)
+
+- 참고 문제
+ 삼성 기출 [윳놀이](https://www.acmicpc.net/problem/17825)
+
+> 광고 삽입
+[광고 삽입](https://programmers.co.kr/learn/courses/30/lessons/72414)
+
+- 참고문제 
+ [디스크컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)
+
+### 12주차
+
+> 이진 변환 반복하기
+
+[이진 변환 반복하기](https://programmers.co.kr/learn/courses/30/lessons/70129)
+
+> 영어끝말잇기
+
+[영어끝말잇기](https://programmers.co.kr/learn/courses/30/lessons/12981)
+
+> 추석 트래픽
+
+[추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)
+
+> 경주로 건설
+
+[경주로 건설](https://programmers.co.kr/learn/courses/30/lessons/67259)
+
+> 셔틀버스
+
+[셔틀버스](https://programmers.co.kr/learn/courses/30/lessons/17678)
+
+> 길찾기 게임
+
+[길찾기 게임](https://programmers.co.kr/learn/courses/30/lessons/42892)
+
 # ⭐️ 1. 협업 도구 및 코드 공유 형식
 
 ### 과제 공유 방식
@@ -16,9 +337,7 @@ leetcode_문제이름_이니셜, programmers_문제이름_이니셜, baekjoon_�
 
 ### 스터디 2시간 진행 방식
 
-1시간 30분 코드 리뷰 및 손코딩 대비, 30분 즉석 문제 풀이(추후 변경 가능)
-
-(주차별 폴더에 보관할 것인지 미정 - 의견주세요!)
+1시간 30분 코드 리뷰 및 손코딩 대비, 30분 즉석 문제 풀이
 
 # 🔥 2. 알고리즘 문제
 

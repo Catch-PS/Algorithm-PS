@@ -1,7 +1,6 @@
 package 스터디.스터디_SNU.Section13;
 
 /**
- * https://velog.io/@hyeon930/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%B6%94%EC%84%9D-%ED%8A%B8%EB%9E%98%ED%94%BD-Java
  * 1. 문제풀이시간: 초과
  * 2. 컴퓨팅사고
  * (1) 응답시간, 응답완료 시간을 모두 m/s단위로 바꾸어줍니다.

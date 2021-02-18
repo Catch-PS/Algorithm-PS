@@ -1,7 +1,7 @@
 # 서울대입구역 알고리즘 스터디 
 
 ## 🔥알고리즘 주차별 문제🔥
-### 1주차
+### 1주차 알고리즘 문제
 
 > MooTube (Silver)
 
@@ -23,7 +23,7 @@
 
 [https://leetcode.com/problems/valid-parentheses/](https://leetcode.com/problems/valid-parentheses/)
 
-### 2주차
+### 2주차 알고리즘 문제
 
 > 새로운 게임 
 
@@ -61,7 +61,7 @@
 
 [https://leetcode.com/problems/longest-palindromic-substring/](https://leetcode.com/problems/longest-palindromic-substring/)
 
-### 3주차
+### 3주차 알고리즘 문제
 
 > Longest Substring Without Repeating Characters
 
@@ -92,7 +92,7 @@
 
 [https://programmers.co.kr/learn/courses/30/lessons/68646](https://programmers.co.kr/learn/courses/30/lessons/68646)
 
-### 4주차
+### 4주차 알고리즘 문제
 
 > lru-cache
 
@@ -114,7 +114,7 @@
 
 [https://programmers.co.kr/learn/courses/30/lessons/67257](https://programmers.co.kr/learn/courses/30/lessons/67257)
 
-### 5주차
+### 5주차 알고리즘 문제
 
 > leetcode Permutations
 
@@ -141,7 +141,7 @@
 
 [프로그래머스 영어 끝말잇기](https://programmers.co.kr/learn/courses/30/lessons/12981)
 
-### 6주차
+### 6주차 알고리즘 문제
 
 > leetcode Jump Game
 
@@ -163,7 +163,7 @@
 
 [프로그래머스 보석쇼핑](https://programmers.co.kr/learn/courses/30/lessons/67258)
 
-### 7주차
+### 7주차 알고리즘 문제
 
 > leetcode maximal-square
 
@@ -185,7 +185,7 @@
 
 [프로그래머스 블록 이동하기](https://programmers.co.kr/learn/courses/30/lessons/60063)
 
-### 8주차
+### 8주차 알고리즘 문제
 
 > partition-labels
 
@@ -208,7 +208,7 @@
 
 [프로그래머스 블록 이동하기](https://programmers.co.kr/learn/courses/30/lessons/60063)
 
-### 9주차
+### 9주차 알고리즘 문제
 
 > Daily Temperatures
 
@@ -235,7 +235,7 @@
 
 [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)
 
-### 10주차
+### 10주차 알고리즘 문제
 
 > 순위
 
@@ -265,7 +265,7 @@
 
 [전화번호목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
 
-### 11주차
+### 11주차 알고리즘 문제
 
 > 여행경로 
 
@@ -295,7 +295,7 @@
 - 참고문제 
  [디스크컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)
 
-### 12주차
+### 12주차 알고리즘 문제
 
 > 이진 변환 반복하기
 
@@ -320,6 +320,34 @@
 > 길찾기 게임
 
 [길찾기 게임](https://programmers.co.kr/learn/courses/30/lessons/42892)
+
+### 13주차 알고리즘 문제
+
+
+> 튜플
+
+[튜플](https://programmers.co.kr/learn/courses/30/lessons/64065)
+
+> 자물쇠열쇠
+
+[자물쇠열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059)
+
+> 보석쇼핑
+
+[보석쇼핑](https://programmers.co.kr/learn/courses/30/lessons/67258)
+
+> 외벽점검
+
+[외벽점검](https://programmers.co.kr/learn/courses/30/lessons/60062)
+
+> 기지국설치
+
+[기지국설치](https://programmers.co.kr/learn/courses/30/lessons/12979)
+
+> 명절기념 추가문제(추석트래픽) 
+
+[추석트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)
+
 
 # ⭐️ 1. 협업 도구 및 코드 공유 형식
 

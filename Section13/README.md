@@ -30,6 +30,6 @@
 
 [기지국설치](https://programmers.co.kr/learn/courses/30/lessons/12979)
 
-> + 명절기념 추가문제(추석트래픽) 
+> 명절기념 추가문제(추석트래픽) 
 
 [추석트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)

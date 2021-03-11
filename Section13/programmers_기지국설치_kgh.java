@@ -1,8 +1,5 @@
-package 스터디.스터디_SNU.Section03;
-
-
 /**
- * 1. 문제 풀이 시간: 초과
+ * 1. 문제 풀이 시간: 50분
  *
  * 2. 문제 풀이 방식: 그리디알고리즘
  * - 기지국이 설치되지 않은 위치일 경우 현재 위치에서 (가중치 * 2) + 1을 통해서 (왼쪽 전파 범위, 오른쪽 전파 범위, 기지국 범위)를 더해 갱신해줍니다.
@@ -21,19 +18,19 @@ public class programmers_기지국설치_kgh {
     }
     static int solution(int n, int[] stations, int w) {
         int answer = 0;
-        int idx = 0;
+        int currIdx = 0;
         int location = 1;
 
         while(location <= n){
             // 기지국 설치된 경우
             // comment 현재 포인트 idx값이 범위 && 전파범위 체크(즉, 설치된 기지국의 범위)를 구하여 (설치된 동 idx + w + 1)
-            if(idx < stations.length && location >= stations[idx] - w){
-                location = stations[idx] + w + 1;
-                idx++;      // 다음 전파국 찾기
+            if(currIdx < stations.length && location >= stations[currIdx] - w){
+                location = stations[currIdx] + w + 1;
+                currIdx++;      // 다음 전파국 찾기
             }
             // 기지국 설치되지 않은 경우
             else {
-                location += (w*2) + 1; // 왼쪽 전파범위 + 기지국 + 오른쪽 전파범위
+                location += (w*2)+1; // 왼쪽 전파범위 + 기지국 + 오른쪽 전파범위
                 answer++;          // 기지국 설치
             }
         }

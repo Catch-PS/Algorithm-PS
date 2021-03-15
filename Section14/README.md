@@ -10,10 +10,12 @@
 
 # Programmers
 
-> 스타수열 
+> 스타수열
+
 https://programmers.co.kr/learn/courses/30/lessons/70130
 
 > 순위검색
+
 https://programmers.co.kr/learn/courses/30/lessons/72412
 
 > 한문제 더있는데 업데이트 할 예정
@@ -25,7 +27,9 @@ https://programmers.co.kr/learn/courses/30/lessons/72412
 https://leetcode.com/problems/partition-labels/
 
 > subsets
+
 https://leetcode.com/problems/subsets/
 
 > word-break
+
 https://leetcode.com/problems/word-break/

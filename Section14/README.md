@@ -18,8 +18,9 @@ https://programmers.co.kr/learn/courses/30/lessons/70130
 
 https://programmers.co.kr/learn/courses/30/lessons/72412
 
-> 한문제 더있는데 업데이트 할 예정
+> N개의 최소공배수
 
+https://programmers.co.kr/learn/courses/30/lessons/12953
 # Leetcode 
 
 > partition-labels

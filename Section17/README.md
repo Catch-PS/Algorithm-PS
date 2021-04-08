@@ -6,24 +6,6 @@
 - 일요일 밤에 참석여부 투표 
 - 스터디전에 전주차 문제들 복습
 
-
-다음 큰 숫자 
-
-
-풍선 터뜨리기
-https://programmers.co.kr/learn/courses/30/lessons/68646?language=java
-
-베스트 앨범
-https://programmers.co.kr/learn/courses/30/lessons/42579
-
-top-k-frequent-elements
-https://leetcode.com/problems/top-k-frequent-elements/ 
-
-product-of-array-except-self
-https://leetcode.com/problems/product-of-array-except-self/
-
-queue-reconstruction-by-height
-https://leetcode.com/problems/queue-reconstruction-by-height/
 # Progammers
 
 > 1. 다음 큰 숫자
